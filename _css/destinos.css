@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/* Formatação do corpo */
+
+header#titulo h1{
+    padding-left: 370px;
+}
+
+div#imgesquerda, div#imgdireita {
+    width: auto;
+    height: 266px;
+    border: 1px solid rgba(0,0,0,0);
+}
+
+div#imgesquerda {
+    background-color: #DDF2F2;
+}
+
+div#imgesquerda article {
+    margin: auto;
+    margin-top: 27px;
+    width: 795px;
+    height: 212px;
+}
+
+div#imgdireita article {
+    margin: auto;
+    margin-top: 27px;
+    width: 795px;
+    height: 212px;
+}
+
+article p {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+div#imgesquerda img {
+    float: left;
+}
+
+div#imgesquerda div {
+    float: right;
+    max-width: 252px;
+    margin-top: 30px;
+}
+
+div#imgdireita img {
+    float: right;
+}
+
+div#imgdireita div {
+    float: left;
+    max-width: 252px;
+    margin-top: 30px;
+}
+
+/* Formatação do rodape */
+
+#titulo{
+    font-family: 'Dosis', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+} 
+
+footer{
+    margin-top: 30px;
+    width: auto;
+    height: 158px;
+    left: 0px;
+    top: 0px;
+    background: #22A0A0;
+}
+
+footer .logob{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 680px;
+}
+
+.rodape{
+    width: 813px;
+    margin: auto;
+}
+
+footer h1 {
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.empresa-dados{
+    position: relative;
+    float: left;
+    margin-top: 40px;
+}
+
+.rodape .empresa-dados ul{
+    float: left;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;          
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.rodape .empresa-dados ul li{
+    list-style: none;
+}
